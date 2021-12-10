@@ -1,0 +1,46 @@
+:root {
+  --darkcol: #1a2e2c;
+  --mid1col: #71a9a3;
+  --mid2col: #99cccc;
+  --mid3col: #c0ede8;
+  --lightcol: #d5f3f0;
+  --vlightcol: #e6eded;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  padding: 10%;
+  background-color: var(--darkcol);
+}
+
+.white {
+  color: var(--vlightcol);
+}
+
+.mainnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainnav a {
+  font-family: "Karla", sans-serif;
+  text-decoration: black;
+  font-size: larger;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+}
+
+.about {
+  background-color: var(--mid1col);
+}
+
+.work {
+  background-color: var(--mid2col);
+}
+
+.contact {
+  background-color: var(--mid3col);
+}
