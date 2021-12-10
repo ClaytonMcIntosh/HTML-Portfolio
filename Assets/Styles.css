@@ -14,8 +14,20 @@ h1 {
   background-color: var(--darkcol);
 }
 
+.claytonphoto {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10%;
+    border-radius: 100%;
+}
+
 .white {
   color: var(--vlightcol);
+}
+
+.siteheading {
+    background-color: var(--lightcol);
 }
 
 .mainnav {
