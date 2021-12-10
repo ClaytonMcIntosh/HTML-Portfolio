@@ -7,19 +7,28 @@
   --vlightcol: #e6eded;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Karla", sans-serif;
+}
+
+h1 {
   text-align: center;
   padding: 10%;
   background-color: var(--darkcol);
+  font-size: 2rem;
 }
 
 .claytonphoto {
-    width: 50%;
-    display: block;
-    margin: auto;
-    padding: 10%;
-    border-radius: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 10%;
+  border-radius: 100%;
 }
 
 .white {
@@ -27,7 +36,7 @@ h1 {
 }
 
 .siteheading {
-    background-color: var(--lightcol);
+  background-color: var(--lightcol);
 }
 
 .mainnav {
@@ -55,4 +64,50 @@ h1 {
 
 .contact {
   background-color: var(--mid3col);
+}
+
+.pageabout,
+.pagework,
+.pagecont {
+  padding: 1% 10%;
+}
+
+footer {
+  background-color: var(--darkcol);
+  padding: 10%;
+  color: var(--vlightcol);
+}
+
+.largephoto {
+  width: 100%;
+  border: var(--lightcol) solid 1px;
+}
+
+.pagework {
+  background-color: var(--darkcol);
+  color: var(--vlightcol);
+}
+
+.smallphoto {
+  width: 100%;
+  border: var(--lightcol) solid 1px;
+}
+
+@media screen and (min-width: 600px) {
+  .mainnav {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mainnav {
+    flex-direction: row;
+    background-color: var(--lightcol);
+    justify-content: flex-end;
+  }
+
+  .mainnav a {
+    width: 300px;
+
+  }
 }
