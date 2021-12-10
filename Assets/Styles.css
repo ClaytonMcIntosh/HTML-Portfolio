@@ -18,9 +18,9 @@ h6 {
 
 h1 {
   text-align: center;
-  padding: 10%;
+  padding: 5%;
   background-color: var(--darkcol);
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .claytonphoto {
@@ -97,17 +97,51 @@ footer {
   .mainnav {
     flex-direction: row;
   }
+
+  .claytonphoto {
+    width: 280px;
+  }
+  .siteheading h1 {
+    font-size: 3rem;
+    padding: 3%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .mainnav {
     flex-direction: row;
-    background-color: var(--lightcol);
+    background-color: var(--mid3col);
     justify-content: flex-end;
   }
 
   .mainnav a {
-    width: 300px;
+    width: 25%;
+  }
 
+  h2 {
+    margin-left: 10%;
+  }
+
+  .breakcont {
+    margin-left: 25%;
+  }
+
+  .claytonphoto {
+    width: 300px;
+    padding: 3%;
+  }
+
+  .siteheading h1 {
+    font-size: 5rem;
+    padding: 3%;
+  }
+
+  .sc {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .smallcont {
+    width: 46%;
   }
 }
