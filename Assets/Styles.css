@@ -16,6 +16,18 @@ h6 {
   font-family: "Karla", sans-serif;
 }
 
+p {
+  font-family: "Spectral", serif;
+}
+
+a:visited {
+  color: var(--darkcol);
+}
+
+a:hover {
+  background-color: var(--lightcol);
+}
+
 h1 {
   text-align: center;
   padding: 5%;
@@ -33,6 +45,11 @@ h1 {
 
 .white {
   color: var(--vlightcol);
+}
+
+.white:link,
+.white:visited {
+  color: var(--mid3col);
 }
 
 .siteheading {
@@ -98,6 +115,10 @@ footer {
     flex-direction: row;
   }
 
+  .mainnav a {
+    padding: 10px 0px;
+  }
+
   .claytonphoto {
     width: 280px;
   }
@@ -116,6 +137,7 @@ footer {
 
   .mainnav a {
     width: 25%;
+    padding: 15px 0px;
   }
 
   h2 {
@@ -143,5 +165,6 @@ footer {
 
   .smallcont {
     width: 46%;
+    padding: 4% 0;
   }
 }
