@@ -24,9 +24,10 @@ a:visited {
   color: var(--darkcol);
 }
 
-a:hover {
+.mainnav a:hover {
   background-color: var(--lightcol);
 }
+
 
 h1 {
   text-align: center;
@@ -89,11 +90,7 @@ h1 {
   padding: 2% 10%;
 }
 
-footer {
-  background-color: var(--darkcol);
-  padding: 3%;
-  color: var(--vlightcol);
-}
+
 
 .largephoto {
   width: 100%;
@@ -110,8 +107,11 @@ footer {
   border: var(--lightcol) solid 1px;
 }
 
-.contactsbox {
+.smallphoto:hover, .largephoto:hover {
+  opacity: 80%;
+}
 
+.contactsbox {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,6 +125,12 @@ footer {
 
 .icon {
   font-size: 4rem;
+}
+
+footer {
+  background-color: var(--darkcol);
+  padding: 3%;
+  color: var(--vlightcol);
 }
 
 @media screen and (min-width: 600px) {
@@ -147,8 +153,9 @@ footer {
     flex-direction: row;
     justify-content: center;
   }
-
 }
+
+
 
 @media screen and (min-width: 768px) {
   .mainnav {
@@ -189,6 +196,4 @@ footer {
     width: 46%;
     padding: 4% 0;
   }
-
-  
 }
