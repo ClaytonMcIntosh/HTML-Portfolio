@@ -86,12 +86,12 @@ h1 {
 .pageabout,
 .pagework,
 .pagecont {
-  padding: 1% 10%;
+  padding: 2% 10%;
 }
 
 footer {
   background-color: var(--darkcol);
-  padding: 10%;
+  padding: 3%;
   color: var(--vlightcol);
 }
 
@@ -110,6 +110,23 @@ footer {
   border: var(--lightcol) solid 1px;
 }
 
+.contactsbox {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts {
+  text-align: center;
+  margin: 1%;
+  padding: 1% 8%;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
 @media screen and (min-width: 600px) {
   .mainnav {
     flex-direction: row;
@@ -126,6 +143,11 @@ footer {
     font-size: 3rem;
     padding: 3%;
   }
+  .contactsbox {
+    flex-direction: row;
+    justify-content: center;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -167,4 +189,6 @@ footer {
     width: 46%;
     padding: 4% 0;
   }
+
+  
 }
