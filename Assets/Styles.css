@@ -131,6 +131,21 @@ footer {
   color: var(--vlightcol);
 }
 
+.twospacecont {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.twospacechild {
+  width: 100%;
+  margin: 5px 0%;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  background-color: var(--mid1col);
+}
+
 /* media queries used to make the page responsive for tablet and desktop */
 @media screen and (min-width: 600px) {
   .mainnav {
@@ -152,6 +167,7 @@ footer {
     flex-direction: row;
     justify-content: center;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -174,6 +190,10 @@ footer {
     margin-left: 25%;
   }
 
+  .twospacecont {
+    margin-left: 25%;
+  }
+
   .claytonphoto {
     width: 300px;
     padding: 3%;
@@ -193,4 +213,14 @@ footer {
     width: 46%;
     padding: 4% 0;
   }
+  
+  .twospacecont {
+    flex: column;
+  }
+  
+  .twospacechild {
+    width: 40%;
+    margin: 5px 2.5%;
+  }
+  
 }
