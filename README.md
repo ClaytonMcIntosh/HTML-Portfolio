@@ -1,4 +1,4 @@
-# Clayton-Mcintosh-Portfolio
+# HTML-Portfolio
 
 ## Clayton McIntosh Port Folio
 
